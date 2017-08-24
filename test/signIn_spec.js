@@ -1,4 +1,4 @@
-  var homepage = require('../page/Home.js');
+var homepage = require('../page/Home.js');
 
 describe('In Stock - Invalid User Test', function() {
 
