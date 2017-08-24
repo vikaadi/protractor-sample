@@ -1,0 +1,10 @@
+{
+  "name": "protractor-sample",
+  "version": "1.0.0",
+  "description": "Sample Test for Protractor",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor"
+  },
+  "author": "agrover"
+}
