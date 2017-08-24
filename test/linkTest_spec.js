@@ -1,8 +1,8 @@
-  var homepage = require('../page/Home.js');
+var homepage = require('../page/Home.js');
 
-describe('angularjs homepage', function() {
+describe('InStock homepage', function() {
 
-  it('should greet the named user', function() {
+  it('verify all links working', function() {
 
     homepage.get();
     homepage.verifyAllLinks();
