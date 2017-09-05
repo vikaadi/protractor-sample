@@ -24,11 +24,11 @@ module.exports = {
       $$('a').map(function(link, text) {
         return link.getAttribute("href").then(function (href) {
           console.log(href);
-          return String(href);//.replace(/www\:\/\/istockphoto\.com\//g, 'http://www.istockphoto.com');
+          return String(href);
             });
         return text.getText().then(function (text) {
           console.log(text);
-          return String(text);//.replace(/www\:\/\/istockphoto\.com\//g, 'http://www.istockphoto.com');
+          return String(text);
             });
           }).then(function(links) {
               links.forEach(function(link, text) {
