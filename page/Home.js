@@ -16,7 +16,7 @@ module.exports = {
 
     get: function() {
         browser.manage().window().maximize();
-        browser.get('http://www.istockphoto.com');
+        browser.get('http://www.ist***.com');
     },
 
     verifyAllLinks: function() {
